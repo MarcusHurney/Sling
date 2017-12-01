@@ -1,0 +1,14 @@
+@import './assets/helpers/normalize.scss';
+@import './assets/helpers/breakpoints.scss';
+@import './view/Common/styles/index.scss';
+
+.root {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+
+  .page {
+    flex: 1;
+  }
+}
