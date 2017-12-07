@@ -1,0 +1,26 @@
+// #landing_section {
+//   flex: 1;
+//   display: flex;
+//   flex-direction: column;
+//   background: $primary_background; /* fallback for old browsers */
+//   background: -webkit-linear-gradient(
+//     to right,
+//     $primary_background,
+//     $primary_orange
+//   ); /* Chrome 10-25, Safari 5.1-6 */
+//   background: linear-gradient(
+//     to right,
+//     $primary_background,
+//     $primary_orange
+//   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+// }
+
+#landing_section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  // background-image: url('./assets/stardust.png');
+  // background-position: center center;
+  // background-size: cover;
+  // background-repeat: no-repeat;
+}

@@ -1,1 +1,1 @@
-export const HACK_HIVE_API = 'https://hack-hive-api.herokuapp.com';
+export const REACT_BAZAR_API = 'https://react-bazar-api.herokuapp.com';

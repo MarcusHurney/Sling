@@ -1,10 +1,10 @@
 import React from 'react';
-import Routes from '../config/routes.js';
+import Routes from '../routes';
+import MockBrowser from './Common/components/MockBrowser';
 
 export default () => (
   <div className="root">
-    <div className="page">
-      <Routes />
-    </div>
+    <MockBrowser />
+    <Routes />
   </div>
 );
