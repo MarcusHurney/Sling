@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 // import routes
-import LandingPage from '../view/Home/components/LandingPage';
+import LandingPage from '../view/LandingPage/components/LandingPage';
 import EnsureAuth from './EnsureAuth';
 import PreAuthRoutes from './PreAuthRoutes';
 import PostAuthRoutes from './PostAuthRoutes';

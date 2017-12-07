@@ -6,14 +6,14 @@ import UserRoutes from './UserRoutes';
 
 // import containers & components
 import PostAuthNavbarContainer from '../view/Navigation/containers/PostAuthNavbarContainer';
-import Home from '../view/Home/components/Home'; // this should be the first authorized screen
+import BazarIndex from '../view/Bazar/components/BazarIndex'; // this should be the first authorized screen
 
 const PostAuthRoutes = ({ match }) => (
   <div className="primary-layout">
     <PostAuthNavbarContainer />
     <main>
       <Switch>
-        <Route path={`${match.path}`} exact component={Home} />
+        <Route path={`${match.path}`} exact component={BazarIndex} />
         <Route path={`${match.path}/users`} component={UserRoutes} />
         <Redirect to={`${match.url}`} />
       </Switch>
